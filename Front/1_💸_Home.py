@@ -46,7 +46,8 @@ with tab1:
 
 with tab2 :
 
-    url = 'https://crypto-j2nsa5srea-ew.a.run.app'
+    url = 'https://crypto-j2nsa5srea-ew.a.run.app/predict'
+
 
     response = requests.get('https://crypto-j2nsa5srea-ew.a.run.app/predict')
 
