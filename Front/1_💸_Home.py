@@ -11,7 +11,7 @@ st.set_page_config(initial_sidebar_state="collapsed")
 tab1, tab2, tab3 = st.tabs(["💸 Home", "📈 Prediction", "⚽️ The team"])
 
 with tab1:
-    with open("designing.css") as source_des :
+    with open("./designing.css") as source_des :
         st.markdown(f"<style>{source_des.read()}</style>", unsafe_allow_html=True)
         st.markdown("<h1 style='text-align: center;'>CPP<br>- Crypto Price Prediction -<br> Or how to get rich</h1>", unsafe_allow_html=True)
 
@@ -80,7 +80,7 @@ with tab3:
 
     st.markdown("---")
 
-    with open("designing.css") as source_des :
+    with open("./designing.css") as source_des :
         st.markdown(f"<style>{source_des.read()}</style>", unsafe_allow_html=True)
 
     image1 = Image.open('logo/logo_real.jpeg')
