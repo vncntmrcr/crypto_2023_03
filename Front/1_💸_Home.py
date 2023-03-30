@@ -80,7 +80,7 @@ with tab3:
 
     st.markdown("---")
 
-    with open("./designing.css") as source_des :
+    with open("./Front/designing.css") as source_des :
         st.markdown(f"<style>{source_des.read()}</style>", unsafe_allow_html=True)
 
     image1 = Image.open('logo/logo_real.jpeg')
